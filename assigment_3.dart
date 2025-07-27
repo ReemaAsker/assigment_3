@@ -95,7 +95,7 @@ Bonus: Use logical operators (&&, ||) and nested blocks
   username = username.toLowerCase();
   print("Enter password:");
   password = stdin.readLineSync() ?? '';
-  print("Enter role (admin/user):"); //admin
+  print("Enter role (admin/user):");
   role = stdin.readLineSync() ?? 'user';
   role = role.toLowerCase();
   if (role != "admin" && role != "user") {
